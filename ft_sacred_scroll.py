@@ -6,7 +6,7 @@
 #  By: asulon <asulon@student.42.fr>             +#+  +:+       +#+         #
 #                                              +#+#+#+#+#+   +#+            #
 #  Created: 2026/03/23 15:02:48 by asulon          #+#    #+#               #
-#  Updated: 2026/03/23 16:01:52 by asulon          ###   ########.fr        #
+#  Updated: 2026/03/23 18:02:07 by asulon          ###   ########.fr        #
 #                                                                           #
 # ************************************************************************* #
 
@@ -39,7 +39,11 @@ def main():
     try:
         print(f"alchemy.create_air(): {alchemy.create_air()}")
     except AttributeError:
-        print("alchemy.create_air(): AttributeError - not exposed")
+        print("alchemy.create_air(): AttributeError - not exposed\n")
+
+    print("Package metadata")
+    print(f"Version : {alchemy.__version__}")
+    print(f"Author : {alchemy.__author__}")
 
 
 if __name__ == "__main__":
