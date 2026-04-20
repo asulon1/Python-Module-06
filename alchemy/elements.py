@@ -1,21 +1,14 @@
 # ************************************************************************* #
 #                                                                           #
 #                                                      :::      ::::::::    #
-#  element.py                                        :+:      :+:    :+:    #
+#  elements.py                                       :+:      :+:    :+:    #
 #                                                  +:+ +:+         +:+      #
-#  By: asulon <asulon@student.42.fr>             +#+  +:+       +#+         #
+#  By: asulon <asulon@student.42nice.fr>         +#+  +:+       +#+         #
 #                                              +#+#+#+#+#+   +#+            #
-#  Created: 2026/03/23 15:02:56 by asulon          #+#    #+#               #
-#  Updated: 2026/03/23 15:04:49 by asulon          ###   ########.fr        #
+#  Created: 2026/04/20 17:51:57 by asulon          #+#    #+#               #
+#  Updated: 2026/04/20 17:52:33 by asulon          ###   ########.fr        #
 #                                                                           #
 # ************************************************************************* #
-
-def create_fire() -> str:
-    return "Fire element created"
-
-
-def create_water() -> str:
-    return "Water element created"
 
 
 def create_earth() -> str:

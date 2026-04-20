@@ -1,15 +1,18 @@
 # ************************************************************************* #
 #                                                                           #
 #                                                      :::      ::::::::    #
-#  __init__.py                                       :+:      :+:    :+:    #
+#  elements.py                                       :+:      :+:    :+:    #
 #                                                  +:+ +:+         +:+      #
 #  By: asulon <asulon@student.42nice.fr>         +#+  +:+       +#+         #
 #                                              +#+#+#+#+#+   +#+            #
-#  Created: 2026/04/20 17:52:44 by asulon          #+#    #+#               #
-#  Updated: 2026/04/20 17:59:37 by asulon          ###   ########.fr        #
+#  Created: 2026/04/20 17:50:46 by asulon          #+#    #+#               #
+#  Updated: 2026/04/20 17:51:38 by asulon          ###   ########.fr        #
 #                                                                           #
 # ************************************************************************* #
 
-from .elements import create_air
+def create_fire() -> str:
+    return "Fire element created"
 
-__all__ = ["create_air"]
+
+def create_water() -> str:
+    return "Water element created"
